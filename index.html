@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/resetcss.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Sidebar content -->
+        <div id="top-side">
+            <div class="row p-6 list-group">
+                <ul class="justify-around cursor-pointer">
+                    <li class="text item-list text-hover">Home</li>
+                    <li class="text item-list text-hover">About</li>
+                    <li class="text item-list text-hover">Blog</li>
+                    <li class="text item-list text-hover">Page</li>
+                    <li class="text item-list text-hover">Contact</li>
+                </ul>
+            </div>
+            <div class="row p-6">
+                <div class="language-form">
+                    <p class="text text-hover">
+                        English
+                        <i class="fa-solid fa-angle-down"></i>
+                    </p>
+                </div>
+                <div class="sign-in">
+                    <p class="text cursor-pointer text-hover">Sign In</p>
+                </div>
+                <div class="register">
+                    <button class="btn btn-hover p-12 border-style-none">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar End -->
+        <!-- Main Content-->
+        <!-- Text Form Start -->
+        <div class="row flex-around flex-center">
+            <div id="texte">
+                <div class="big-text">
+                    <p class="text text-big">
+                        Sign In to
+                        Recharge Direct
+                    </p>
+                </div>
+                <div class="small-text text">
+                    if you don’t an account
+                    you can
+                    <span class="text-link text-hover-link">Register here</span>
+                </div>
+            </div>
+            <div class="image">
+                <img class="img" src="assets/imgs/image/Picture.png" alt="image">
+            </div>
+            <!-- Text Form End -->
+            <!-- Form Login -->
+            <div id="login-form">
+                <div class="title-login-form">
+                    <p class="text big-size">Sign In</p>
+                </div>
+                <span class="line-top"></span>
+                <div class="form-login">
+                    <div class="input-form">
+                        <input class="form-control border-style-none" type="text" id="username"
+                            placeholder="Enter Username">
+                    </div>
+                    <div class="input-form">
+                        <input class="form-control border-style-none" type="text" id="password" placeholder="Password">
+                    </div>
+                    <div class="reset-pass p-10">
+                        <p class="text flex-end">Recover Password ?</p>
+                    </div>
+                    <div class="button flex-center">
+                        <button class="btn-primary title-btn cursor-pointer">Sign In</button>
+                    </div>
+                </div>
+                <div class="row flex-around">
+                    <div class="line"></div>
+                    <p class="text">Or continue with</p>
+                    <div class="line"></div>
+                </div>
+                <div class="form-icon row">
+                    <button class="btn cursor-pointer google border-style-none"><i
+                            class="fa-brands fa-google"></i></button>
+                    <button class="btn cursor-pointer facebook border-style-none"><i
+                            class="fa-brands fa-facebook-f"></i></button>
+                    <button class="btn cursor-pointer apple border-style-none"><i
+                            class="fa-solid fa-apple-whole"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
